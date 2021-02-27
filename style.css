@@ -34,6 +34,7 @@
     border-top: .5px solid;
 }
 
+
 .title{
     text-align: center;
     color:darkgoldenrod;
@@ -48,6 +49,7 @@
     margin: 1em auto;
     padding: 0 1.5em;
     font-size: 1.5em;
+    padding-bottom: 2em;
 
 }
 
@@ -65,16 +67,31 @@
 }
 
 .home_footer{
-    background-color: white;
+    background-color:#56ccf2;
     color:white;
-    padding: 0.25em 0;
+    padding: 0.25em ;
 }
 
 .footer_title{
+    color:white;
+    font-size: 2em;
+    padding-left: 40px;
     text-align: left;
     padding-bottom: 10px;
 }
 
-.home_footer li{
+.footer-cont{
+    
+    display: flex;
+    align-items: center;
+}
+
+.footer-cont ul{
+    flex-grow: 1;
     text-align: end;
+}
+
+.main-nav.footer-part{
+    border-bottom: 0.5px ;
+    border-top: .5px ;
 }
