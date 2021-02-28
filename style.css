@@ -19,7 +19,7 @@
 .main-nav a{
     display: inline-block;
     padding: .1em;
-    color: darkcyan;
+    color:white;
     text-decoration: none;
 }
 
@@ -94,4 +94,101 @@
 .main-nav.footer-part{
     border-bottom: 0.5px ;
     border-top: .5px ;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .7em;
+    cursor: pointer;
+}
+
+.btn-header{
+    margin: 0.5em 15% 2em 15%;
+    color: goldenrod;
+    border: 2px solid gainsboro;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    font-size:  1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color: #56ccf2;
+    font-size: 2em;
+    border-radius: 50%;
+    font-weight: lighter;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100px;
+    height: 100px;
+    
+}
+
+.award-ul li{
+    color: goldenrod;
+    padding: 0.5em;
+}
+
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+
+}
+
+.tour-row:last-child{
+    border-bottom: none;
+}
+
+.album-item{
+    display: inline-block;
+    padding-right: 2em;
+}
+
+.album-name{
+    color:goldenrod;
+    font-weight: bold;
+    width: 50%;
+}
+
+.album-year{
+    width: 20%;
+}
+
+.btn-album{
+    width: 20%;
+    color: white;
+    background-color: #56ccf2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-album:hover{
+    background-color: #2d9cdb;
+}
+
+.album-footer{
+    background-color:rgba(196, 134, 19, 0.5);
+}
+
+.website-shop{
+    padding: 10em 10em;
+    text-align: center;
+    color:green ;
+}
+
+.shop-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

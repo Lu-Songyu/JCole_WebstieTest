@@ -4,62 +4,72 @@
         <title>J Cole Page</title>
         <!-- meta is used to show extra information when people google this website-->
         <meta name='description' content="J Cole is a rapper from NC">
-  
-        <h1 style="text-align: center">J Cole: A Poet from Fayettevile, North Carolina</h1>
-        <img src='j_cole2.jpg' width="300" height="500">
+        <link rel='stylesheet' href="style.css">
+
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="home-header">
+            <nav class="main-nav">
                 <ul>
                     <li><a href="home.html">HOME</a></li>
                     <li><a href='index.html'>ALBUM</a></li>
-                    <li><a href="album.html">Store</a></li>
+                    <li><a href="album.html">STORE</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>J Cole: A Poet from Fayettevile, North Carolina</h1>
-            <img src='back1.jpg'>
-        </header>
-    
-        <button>Listen to the latest Album</button>
-        <br>
-        <br>
-        <button>&#9658</button>
-        <section>
-            <h2>ALBUM</h2>
+            <h1 class='title'>J Cole:
+                <ul class="award-ul">
+                    <li>AMA Nomination: 2012 2015</li>
+                    <li>BET Award: 2011 2012 2014 2016 2017 2018</li>
+                    <li>Grammy Award: 2012 2014 2016 2019 2020</li>
+                    <li>Billboard Music Award: 2014 2015 2017 2018</li>
+                    
+                </ul>
+            </h1>
+        <button class="btn btn-header">Listen to the latest Album</button>
+        
+        <button class="btn btn-play">&#9658</button>
+    </header>
+        <section class="content">
+            <h2 class="content-header">ALBUM</h2>
             <div>
-                <divs>
-                    <strong>Cole World: The Sideline Story</strong> 2011
-                    <button type = 'button'>LISTEN</button>
-                    <hr>
+                <div class="tour-row">
+                    <span class="album-item album-name">Cole World: The Sideline Story</span> 
+                    <span class="album-item album-year">2011</span>
+                    <button type = 'button' class="btn btn-album">LISTEN</button>
+                   
                 </div>
-                <div>
-                    <strong>2014 Forest Hills Drive</strong> 2014
-                    <button type = 'button'>LISTEN</button>
-                    <hr>
+                <div class="tour-row">
+                    <span class="album-item album-name">2014 Forest Hills Drive</span> 
+                    <span class="album-item album-year">2014</span>
+                    <button type = 'button' class="btn btn-album">LISTEN</button>
+                 
                 </div>
-                <div>
-                    <strong>4 Your Eyez Only</strong> 2016
-                    <button type = 'button'>LISTEN</button>
-                    <hr>
+                <div class="tour-row">
+                    <span class="album-item album-name">4 Your Eyez Only</span> 
+                    <span class="album-item album-year">2016</span>
+                    <button type = 'button' class="btn btn-album">LISTEN</button>
+                   
                 </div>
-                <div>
-                    <strong>KOD</strong> 2018
-                    <button type = 'button'>LISTEN</button>
-                    <hr>
+                <div class="tour-row">
+                    <span class="album-item album-name">KOD</span> 
+                    <span class="album-item album-year">2018</span>
+                    <button type = 'button' class="btn btn-album">LISTEN</button>
+                   
                 </div>
             </div>
         </section>
 
 
 
-        <footer>
-            <h3>Stay Connected</h3>
-            <ul>
-                <li><a href="https://www.youtube.com/results?search_query=j+col%2Ce" target="_blank"><img src='youtube.png', width="100", height="30"></a></li>
+        <footer class='home_footer album-footer'>
+            <div class='container footer-cont'>
+            <h3 class='footer_title' >Stay Connected</h3>
+            <ul class='main-nav footer-part '>
+                <li><a href="https://www.youtube.com/results?search_query=j+col%2Ce" target="_blank"><img src='youtube.png', width="150", height="50"></a></li>
                 <li><a href="https://open.spotify.com/artist/6l3HvQ5sa6mXTsMTB19rO5" target="_blank"><img src='spotify.png' width="50", height="50"></a></li> 
+                <li><a href="https://www.facebook.com/JColeMusic/" target="_blank"><img src='fb.png' width="50", height="50"></a></li> 
             </ul>
+            </div>
         </footer>
     </body>
 </html>
